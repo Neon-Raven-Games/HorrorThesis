@@ -6,21 +6,45 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/House.unity
+    path: Assets/Scenes/MenuScene.unity
+    guid: 25c005153384fdb42881141eb65bc993
+  - enabled: 1
+    path: Assets/Scenes/1/House.unity
     guid: 4018d904e4e8ea34f94739e976b8f3bf
   - enabled: 1
-    path: Assets/Scenes/Hospital.unity
+    path: Assets/Scenes/1/Hospital.unity
     guid: 53ca1f0cdbbf9f145844d25c1311d291
   - enabled: 1
-    path: Assets/Scenes/School.unity
+    path: Assets/Scenes/1/School.unity
     guid: 654e13f7a4cee8a4aad17ef10eca8955
   - enabled: 1
-    path: Assets/Scenes/House2.unity
+    path: Assets/Scenes/1/House2.unity
     guid: fa7fde6e26d57794093ea494c9c2df9e
   - enabled: 1
-    path: Assets/Scenes/School2.unity
+    path: Assets/Scenes/1/School2.unity
     guid: 112bb405218e1ff419f80cad8edb6d48
   - enabled: 1
-    path: Assets/Scenes/GroupTherapy.unity
+    path: Assets/Scenes/1/GroupTherapy.unity
     guid: 215f54280d699d04292d96a1632592b8
+  - enabled: 1
+    path: Assets/Scenes/2/Hospice.unity
+    guid: 9dd39f9f25b958343b81c4fce747825a
+  - enabled: 1
+    path: Assets/Scenes/2/Memorial.unity
+    guid: af9c27163d36d084786f8bd21e264d95
+  - enabled: 1
+    path: Assets/Scenes/2/GroupTherapy2.unity
+    guid: 35bde5f2f5a72494ab4eaa448c342c2e
+  - enabled: 1
+    path: Assets/Scenes/2/School3.unity
+    guid: bca7e8d9344e343499ae826057ad87b8
+  - enabled: 1
+    path: Assets/Scenes/3/JournalScene.unity
+    guid: 19c74189813a5f14dab3f4ce4a7cdbe0
+  - enabled: 1
+    path: Assets/Scenes/3/Last.unity
+    guid: c2eceea009f58b34ab21856711e31c84
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 3b235905353a55b479bad2d8377f0bb5
   m_configObjects: {}
