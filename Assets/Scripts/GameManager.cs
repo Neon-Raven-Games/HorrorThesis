@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private float _volume;
     [SerializeField] private float fadeDuration = 1.5f;
     private Coroutine crossfadeCoroutine; 
-    void Awake()
+    private void Awake()
     {
         if (_instance)
         {
