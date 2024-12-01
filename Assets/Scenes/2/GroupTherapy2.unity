@@ -1438,15 +1438,17 @@ PrefabInstance:
       objectReference: {fileID: 1624926264}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOption
-      value: I understand how you feel.
+      value: I understand how you feel.  It still feels like he's just a phone call
+        away.
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: secondOption
-      value: 
+      value: I know what you mean. Sometimes I catch myself thinking I can still
+        talk to him.
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1471,7 +1473,7 @@ PrefabInstance:
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1160541016}
+      objectReference: {fileID: 442742925}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
@@ -1530,10 +1532,18 @@ PrefabInstance:
       objectReference: {fileID: 1923668429}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOption
-      value: I have been more comfortable opening up.
+      value: I've found that opening up makes it a bit easier, even if it still hurts.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOption
+      value: ' I''ve been more comfortable talking about it, but it took time.'
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
@@ -1545,6 +1555,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 496748908}
@@ -1552,6 +1566,10 @@ PrefabInstance:
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 210113354}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 496748908}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: NextDialogue
@@ -1561,12 +1579,24 @@ PrefabInstance:
       value: LoadSchoolThree
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextDialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: DialogueScript, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogueScript, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
@@ -1581,12 +1611,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1160541016}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7287571391576499331, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1694,6 +1732,11 @@ PrefabInstance:
 --- !u!4 &442742924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7438152452197320130, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+  m_PrefabInstance: {fileID: 442742923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &442742925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315238515880188784, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
   m_PrefabInstance: {fileID: 442742923}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &445277543

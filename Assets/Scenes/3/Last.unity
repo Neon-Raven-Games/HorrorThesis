@@ -3720,6 +3720,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4678315698128760, guid: 9b067ffd8944f8b49bfcbaa66d4b13b0, type: 3}
   m_PrefabInstance: {fileID: 4397218581154621214}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &957183588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3342601545396934970, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+  m_PrefabInstance: {fileID: 2037380038}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1040515404
 GameObject:
   m_ObjectHideFlags: 0
@@ -4229,6 +4234,113 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119537914}
   m_Mesh: {fileID: 4300006, guid: 4c016e0835014224ca08bbc0dca244d2, type: 3}
+--- !u!1 &1123886996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123886997}
+  - component: {fileID: 1123887000}
+  - component: {fileID: 1123886999}
+  - component: {fileID: 1123886998}
+  m_Layer: 0
+  m_Name: Capsule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123886997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123886996}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.8096511, y: -0.16540663, z: 0.44963065, w: 0.33902517}
+  m_LocalPosition: {x: 0.0917, y: 1.1216, z: 0.5003}
+  m_LocalScale: {x: 0.019050434, y: 0.10179601, z: 0.019050438}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7116019908768497183}
+  m_LocalEulerAnglesHint: {x: 135.755, y: -59.294983, z: -2.9630127}
+--- !u!136 &1123886998
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123886996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1123886999
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123886996}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 055665032055c1b40875209eb5637751, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1123887000
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123886996}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1128664965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4358,10 +4470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 4866929168320980, guid: 4b6f9cbbca81a6449a7084070dbc5f92, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1408414082}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b6f9cbbca81a6449a7084070dbc5f92, type: 3}
 --- !u!4 &1190873455 stripped
@@ -4463,6 +4572,90 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1246889553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1246889554}
+  - component: {fileID: 1246889555}
+  m_Layer: 5
+  m_Name: AreUKDialogue (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1246889554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246889553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2037380040}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1246889555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246889553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd10333b4b9ba2c4c9d1f22d42c37970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Now I am applying to colleges.
+  firstOption: " want to help people\u2014maybe psychology, maybe social work."
+  secondOption: " I'm applying to colleges now\u2014I think I want to go into psychology
+    or social work, something to help others."
+  focus: {fileID: 0}
+  firstOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1283980717}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  secondOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1283980717}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  dialogueScript: {fileID: 2037380042}
 --- !u!1 &1254899439
 GameObject:
   m_ObjectHideFlags: 0
@@ -4630,6 +4823,92 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0e7651a0db8d994181ad1feb7144572, type: 3}
+--- !u!1 &1283980717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1283980718}
+  - component: {fileID: 1283980719}
+  m_Layer: 5
+  m_Name: AreUKDialogue (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1283980718
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283980717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2037380040}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1283980719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283980717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd10333b4b9ba2c4c9d1f22d42c37970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: I just want to be the kind of person Dad would be proud of. We visited him
+    at the cemetery today.
+  firstOption: Mom brought fresh flowers, and I told him about the trip I'm planning
+    to Europe, where my sister is moving.
+  secondOption: "Mom brought flowers, and I told him about my plans for Europe\u2014my
+    sister\u2019s moving there."
+  focus: {fileID: 0}
+  firstOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2121330305}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  secondOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2121330305}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  dialogueScript: {fileID: 2037380042}
 --- !u!1 &1306959199
 GameObject:
   m_ObjectHideFlags: 0
@@ -4869,177 +5148,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4181887594852410, guid: 2086aab12f8f85545b87d9de100dcfff, type: 3}
   m_PrefabInstance: {fileID: 1670672677}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1408414081
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1408414082}
-  - component: {fileID: 1408414084}
-  - component: {fileID: 1408414083}
-  m_Layer: 0
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1408414082
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408414081}
-  m_LocalRotation: {x: -0.00033445656, y: -0.70977306, z: 0.00033203512, w: 0.70443034}
-  m_LocalPosition: {x: 0, y: 0, z: 0.011}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1190873455}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.433, z: 0.054}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.042, y: 0.274}
-  m_SizeDelta: {x: 23, y: 2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1408414083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408414081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: CREATE A BETTER YOU!
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 51.29
-  m_fontSizeBase: 51.29
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1408414084}
-  m_maskType: 0
---- !u!23 &1408414084
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408414081}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &1424033912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5162,9 +5270,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd10333b4b9ba2c4c9d1f22d42c37970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: What if they see me differently? I wish I could just... start over.
-  firstOption: ...
-  secondOption: 
+  text: We might not have Dad, but we have each other. And that's something.
+  firstOption: I got my first car, and Mom let me drive us to homecoming. We even
+    took a picture together before she dropped me off.
+  secondOption: I got my first car, and Mom even let me drive her to homecoming.
+    It felt like old times, almost.
   focus: {fileID: 0}
   firstOptionEvent:
     m_PersistentCalls:
@@ -5174,7 +5284,7 @@ MonoBehaviour:
         m_MethodName: NextDialogue
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2037380041}
+          m_ObjectArgument: {fileID: 1246889553}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -5183,7 +5293,19 @@ MonoBehaviour:
         m_CallState: 2
   secondOptionEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1246889553}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueScript: {fileID: 2037380042}
 --- !u!1001 &1473288539
 PrefabInstance:
@@ -5904,6 +6026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1733313989}
   - component: {fileID: 1733313988}
+  - component: {fileID: 1733313990}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -5924,7 +6047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeDuration: 2
-  fadeImage: {fileID: 0}
+  fadeImage: {fileID: 947163905}
   player: {fileID: 0}
 --- !u!4 &1733313989
 Transform:
@@ -5941,6 +6064,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1733313990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733313987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6d69472a98c3e42ae5908c42175655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventOnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 957183588}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1738954760
 GameObject:
   m_ObjectHideFlags: 0
@@ -6237,6 +6387,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4774425430495386, guid: 183e952709142f144bc3668ec857b2df, type: 3}
   m_PrefabInstance: {fileID: 1826940501}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1834207410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834207411}
+  - component: {fileID: 1834207412}
+  m_Layer: 5
+  m_Name: AreUKDialogue (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1834207411
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834207410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2037380040}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1834207412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834207410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd10333b4b9ba2c4c9d1f22d42c37970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: I'm moving forward, and I think he'd want me to.
+  firstOption: ...
+  secondOption: 
+  focus: {fileID: 0}
+  firstOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2037380041}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  secondOptionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogueScript: {fileID: 2037380042}
 --- !u!1 &1845381882
 GameObject:
   m_ObjectHideFlags: 0
@@ -7349,7 +7570,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: text
-      value: "It\u2019s hard. I want to talk, but what if they don\u2019t get it?"
+      value: I used to think losing Dad meant losing everything. But I'm starting
+        to realize I still have a family.
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: focus
@@ -7357,12 +7579,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOption
-      value: ...
+      value: "Mom, my brothers, my sisters, and my nephews\u2014they're here, and
+        they love me."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOption
+      value: "My family\u2014Mom, my siblings, my nephews\u2014they're still here,
+        and they care about me."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2037380042}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2037380042}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: NextDialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextDialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: DialogueScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogueScript, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1459622216}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1459622216}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1459622216}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4341402593172401635, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.4573807
@@ -7529,7 +7821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: text
-      value: Be someone without all the baggage. Maybe one day.
+      value: "I\u2019m moving forward, and I think he\u2019d want me to."
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: focus
@@ -7817,6 +8109,18 @@ PrefabInstance:
       insertIndex: 2
       addedObject: {fileID: 1459622217}
     - targetCorrespondingSourceObject: {fileID: 7510713298992234167, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1246889554}
+    - targetCorrespondingSourceObject: {fileID: 7510713298992234167, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1283980718}
+    - targetCorrespondingSourceObject: {fileID: 7510713298992234167, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 2121330306}
+    - targetCorrespondingSourceObject: {fileID: 7510713298992234167, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1834207411}
+    - targetCorrespondingSourceObject: {fileID: 7510713298992234167, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       insertIndex: -1
       addedObject: {fileID: 947163904}
     - targetCorrespondingSourceObject: {fileID: 8232315061532622651, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
@@ -8064,6 +8368,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4774425430495386, guid: 183e952709142f144bc3668ec857b2df, type: 3}
   m_PrefabInstance: {fileID: 2118726177}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2121330305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121330306}
+  - component: {fileID: 2121330307}
+  m_Layer: 5
+  m_Name: AreUKDialogue (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2121330306
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121330305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2037380040}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2121330307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121330305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd10333b4b9ba2c4c9d1f22d42c37970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: I think he'd approve.
+  firstOption: I still miss him, but it doesn't hurt the same way anymore.
+  secondOption: "I still miss him, but it's different now\u2014not as painful."
+  focus: {fileID: 0}
+  firstOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1834207410}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  secondOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1834207410}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  dialogueScript: {fileID: 2037380042}
 --- !u!1 &2144058619
 GameObject:
   m_ObjectHideFlags: 0
@@ -39766,6 +40153,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4125708740433218, guid: 4111176909a415243b007a751a274d70, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2037380039}
+    - targetCorrespondingSourceObject: {fileID: 4125708740433218, guid: 4111176909a415243b007a751a274d70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1123886997}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4111176909a415243b007a751a274d70, type: 3}
 --- !u!4 &7116019908768497183 stripped

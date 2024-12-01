@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,7 +11,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AudioClip gooseNeck;
     [SerializeField] private AudioClip sadPiano;
     [SerializeField] private AudioClip cinematicMusic;
-    
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape)) Application.Quit();
+    }
+
     private float _volume;
     [SerializeField] private float fadeDuration = 1.5f;
     private Coroutine crossfadeCoroutine; 

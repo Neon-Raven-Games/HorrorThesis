@@ -371,6 +371,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4628259619176576, guid: 6ad3d3afe59eb924fab3e9a042a6cf2a, type: 3}
   m_PrefabInstance: {fileID: 1894250401932396787}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &191716438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3342601545396934970, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+  m_PrefabInstance: {fileID: 2037380038}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &230655086
 Mesh:
   m_ObjectHideFlags: 0
@@ -4285,6 +4290,80 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &911089415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911089416}
+  - component: {fileID: 911089417}
+  m_Layer: 5
+  m_Name: AreUKDialogue (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &911089416
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911089415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2037380040}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &911089417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911089415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd10333b4b9ba2c4c9d1f22d42c37970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: But today, I met some other kids at school who have lost their parents too.
+    And you know what? They seem okay.
+  firstOption: They're living, smiling, and joining things like the tennis team and
+    student council. I even signed up for the tennis team myself.
+  secondOption: "They\u2019re getting by, doing things like joining teams and clubs.
+    I even decided to join the tennis team."
+  focus: {fileID: 0}
+  firstOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1349964673}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  secondOptionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogueScript: {fileID: 2037380042}
 --- !u!1001 &915264122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5049,6 +5128,113 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4307341707630840, guid: fbf147e3f7c168c419e8ff3588163840, type: 3}
   m_PrefabInstance: {fileID: 1128664965}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1144483345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1144483346}
+  - component: {fileID: 1144483349}
+  - component: {fileID: 1144483348}
+  - component: {fileID: 1144483347}
+  m_Layer: 0
+  m_Name: Capsule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1144483346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144483345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.88781804, y: -0.30274007, z: 0.26833722, w: 0.21936898}
+  m_LocalPosition: {x: 0.07, y: 1.127, z: 0.493}
+  m_LocalScale: {x: 0.019050432, y: 0.10179166, z: 0.019050438}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7116019908768497183}
+  m_LocalEulerAnglesHint: {x: 146.496, y: -24.338013, z: 30.231003}
+--- !u!136 &1144483347
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144483345}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1144483348
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144483345}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 055665032055c1b40875209eb5637751, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1144483349
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144483345}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1162197345 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4295457956300522, guid: a7a9dc6f58fa5c54dba10ae445dc4f4c, type: 3}
@@ -5479,6 +5665,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4212357886562278, guid: a0e7651a0db8d994181ad1feb7144572, type: 3}
   m_PrefabInstance: {fileID: 719927765}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1349964673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349964674}
+  - component: {fileID: 1349964675}
+  m_Layer: 5
+  m_Name: AreUKDialogue (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1349964674
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349964673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2037380040}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1349964675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349964673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd10333b4b9ba2c4c9d1f22d42c37970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: I got a summer job, and I've been volunteering with an organization that
+    helps people who don't have much.
+  firstOption: Who knew I could still try something new and not be afraid of failing?
+  secondOption: "I didn\u2019t think I\u2019d have the courage to try something new,
+    but I did."
+  focus: {fileID: 0}
+  firstOptionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2037380041}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  secondOptionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogueScript: {fileID: 2037380042}
 --- !u!1 &1366763875
 GameObject:
   m_ObjectHideFlags: 0
@@ -5868,77 +6127,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4774425430495386, guid: 183e952709142f144bc3668ec857b2df, type: 3}
   m_PrefabInstance: {fileID: 1424033912}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1459622216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1459622217}
-  - component: {fileID: 1459622218}
-  m_Layer: 5
-  m_Name: AreUKDialogue (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1459622217
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459622216}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2037380040}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1459622218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459622216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd10333b4b9ba2c4c9d1f22d42c37970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: What if they see me differently? I wish I could just... start over.
-  firstOption: ...
-  secondOption: 
-  focus: {fileID: 0}
-  firstOptionEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2037380042}
-        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
-        m_MethodName: NextDialogue
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2037380041}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  secondOptionEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  dialogueScript: {fileID: 2037380042}
 --- !u!1001 &1473288539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6584,6 +6772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1733313989}
   - component: {fileID: 1733313988}
+  - component: {fileID: 1733313990}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -6604,7 +6793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeDuration: 2
-  fadeImage: {fileID: 0}
+  fadeImage: {fileID: 947163905}
   player: {fileID: 0}
 --- !u!4 &1733313989
 Transform:
@@ -6621,6 +6810,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1733313990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733313987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6d69472a98c3e42ae5908c42175655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventOnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037380042}
+        m_TargetAssemblyTypeName: DialogueScript, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 191716438}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1738954760
 GameObject:
   m_ObjectHideFlags: 0
@@ -7694,31 +7910,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 842474768255089894, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9984202
+      value: 0.99847907
       objectReference: {fileID: 0}
     - target: {fileID: 842474768255089894, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.039409082
+      value: 0.038121294
       objectReference: {fileID: 0}
     - target: {fileID: 842474768255089894, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.036408406
+      value: 0.03475743
       objectReference: {fileID: 0}
     - target: {fileID: 842474768255089894, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.016686779
+      value: 0.019449942
       objectReference: {fileID: 0}
     - target: {fileID: 842474768255089894, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 4.583
+      value: 4.288
       objectReference: {fileID: 0}
     - target: {fileID: 842474768255089894, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -4.107
+      value: 4.077
       objectReference: {fileID: 0}
     - target: {fileID: 842474768255089894, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 1.751
+      value: 2.385
       objectReference: {fileID: 0}
     - target: {fileID: 1480307274783298560, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8030,7 +8246,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: text
-      value: "It\u2019s hard. I want to talk, but what if they don\u2019t get it?"
+      value: Being a teenager is hard enough. But being a teenager while losing a
+        parent... it changes everything.
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: focus
@@ -8038,12 +8255,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOption
-      value: ...
+      value: I thought I'd always feel broken, like something inside me would always
+        be missing.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      propertyPath: secondOption
+      value: ' I thought I''d never feel normal again, like the loss would always
+        define me.'
       objectReference: {fileID: 0}
     - target: {fileID: 4139515552493001451, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: firstOptionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1459622216}
+      objectReference: {fileID: 911089415}
     - target: {fileID: 4341402593172401635, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.5061843
@@ -8210,7 +8433,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: text
-      value: Be someone without all the baggage. Maybe one day.
+      value: "I guess I just wanted to make a difference, to feel like I still had
+        something to give. Maybe I\u2019m starting to be okay too."
       objectReference: {fileID: 0}
     - target: {fileID: 6640456155915093919, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       propertyPath: focus
@@ -8496,7 +8720,10 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7510713298992234167, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       insertIndex: 2
-      addedObject: {fileID: 1459622217}
+      addedObject: {fileID: 911089416}
+    - targetCorrespondingSourceObject: {fileID: 7510713298992234167, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1349964674}
     - targetCorrespondingSourceObject: {fileID: 7510713298992234167, guid: 01a4af9b60b0689499db3542188ec023, type: 3}
       insertIndex: -1
       addedObject: {fileID: 947163904}
@@ -41093,6 +41320,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4125708740433218, guid: 4111176909a415243b007a751a274d70, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2037380039}
+    - targetCorrespondingSourceObject: {fileID: 4125708740433218, guid: 4111176909a415243b007a751a274d70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1144483346}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4111176909a415243b007a751a274d70, type: 3}
 --- !u!4 &7116019908768497183 stripped
