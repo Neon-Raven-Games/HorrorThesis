@@ -13,13 +13,14 @@ public class DialogueScript : MonoBehaviour
     [SerializeField] private float typeWriterDelay = 0.1f;
     [SerializeField] private string dialogueOptionOne;
     [SerializeField] private string dialogueOptionTwo;
-    private string currentText;
     [SerializeField] private TPSCharacter player;
     [SerializeField] private Transform focus;
 
     [SerializeField] private bool rebindOldFocus;
     [SerializeField] private Button optionOneButton;
     [SerializeField] private Button optionTwoButton;
+    
+    private string currentText;
     private static readonly int _STalking = Animator.StringToHash("Talking");
     private DialogueOption _dialogueOption;
 
