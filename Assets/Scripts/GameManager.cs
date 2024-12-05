@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,15 +10,16 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AudioClip gooseNeck;
     [SerializeField] private AudioClip sadPiano;
     [SerializeField] private AudioClip cinematicMusic;
+    [SerializeField] private float fadeDuration = 1.5f;
+    
+    private float _volume;
+    private Coroutine _crossfadeCoroutine; 
 
     private void Update()
     {
         if (Input.GetKeyUp(KeyCode.Escape)) Application.Quit();
     }
 
-    private float _volume;
-    [SerializeField] private float fadeDuration = 1.5f;
-    private Coroutine crossfadeCoroutine; 
     private void Awake()
     {
         if (_instance)
@@ -27,10 +27,11 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        
         _volume = audioSource.volume; 
         DontDestroyOnLoad(this);
         SceneManager.sceneLoaded += OnSceneLoaded;
-        crossfadeCoroutine = StartCoroutine(CrossfadeRoutine(cinematicMusic));
+        _crossfadeCoroutine = StartCoroutine(CrossfadeRoutine(cinematicMusic));
     }
 
     private void OnSceneLoaded(Scene arg0, LoadSceneMode arg1)
@@ -42,9 +43,8 @@ public class GameManager : MonoBehaviour
 
     private void CrossFadeTracks(AudioClip toClip)
     {
-        if (crossfadeCoroutine != null) StopCoroutine(crossfadeCoroutine);
-
-        crossfadeCoroutine = StartCoroutine(CrossfadeRoutine(toClip));
+        if (_crossfadeCoroutine != null) StopCoroutine(_crossfadeCoroutine);
+        _crossfadeCoroutine = StartCoroutine(CrossfadeRoutine(toClip));
     }
 
     private IEnumerator CrossfadeRoutine(AudioClip toClip)
